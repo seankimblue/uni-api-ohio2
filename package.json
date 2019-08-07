@@ -1,18 +1,15 @@
 {
-    "name": "express-HelloWorld",
-    "description": "Hello World ExpressJS WebService",
-    "version": "0.0.1",
-    "private": true,
-    "dependencies": {
-        "express": "4.16.2",
-        "aws-serverless-express": "3.1.3"
-    },
-    "devDependencies": {
-        "mocha": "5.0.0",
-        "unit.js": "2.0.0",
-        "supertest": "3.0.0"
-    },
-    "scripts": {
-        "test": "mocha --recursive tests"
-    }
+  "name": "uni-api-test",
+  "version": "1.0.0",
+  "description": "",
+  "author": "",
+  "license": "ISC",
+  "dependencies": {},
+  "scripts": {
+    "postinstall": "cd app && npm install"
+  },
+  "devDependencies": {
+    "mocha": "^4.0.1",
+    "proxyquire": "^1.8.0"
+  }
 }
